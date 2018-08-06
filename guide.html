@@ -1,0 +1,313 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Rahmish Java-Get Guide</title>
+</head>
+
+<style>
+    * {
+        font-family: Lato, Ubuntu, "Trebuchet MS";
+    }
+</style>
+
+<body>
+    <h1>Complete Java Install/Run Guide + Editor Choices</h1>
+    <h6>By Syed Safwaan, Minister of Pythonic Affairs 2017-2018</h6>
+
+    <p>
+        In this guide, we'll be comprehensively going over how to install
+        <b>Java and an editor (multiple options shown).</b>
+    </p>
+
+    <hr>
+
+    <h2>Introduction
+        <small>
+            <i>(skip at your own peril)</i>
+        </small>
+    </h2>
+
+    <h3>Brief Overview of Language</h3>
+    <p>
+        Java is a high-level compiled, object-oriented (OOP) language. It's very popular
+        in the field of software development, and is a commonly used language in
+        applications ranging from games to business tools. For a beginner, Java may
+        be intimidating to deal with. However, with time and use, it quickly becomes
+        natural and perhaps a favourite language as well, once its merits are realized.
+    </p>
+
+    <h3>Differences from Python</h3>
+    <p>
+        As stated above, Java is a
+        <i>compiled language</i>. This is very different from Python, which is an
+        <i>interpreted language</i>.
+        <i>Interpreted</i> means that a program on your computer goes through your code
+        <b>line-by-line</b> and executes each on the computer. It's a friendlier type
+        of language, evident by the existence of Python Shell and IDLE, where you
+        can both run code line by line (shell) and save programs (IDLE).
+        <br>
+        <br> However,
+        <i>compiled</i> means that
+        <b>at startup</b>, all the code is compressed into a readable format when you
+        hit "run." Then, the code is all executed "at once," resulting in very fast
+        programs. However, because of its compiled nature, there is no Java Shell
+        (until
+        <a target="_blank" href="https://docs.oracle.com/javase/10/jshell/introduction-jshell.htm">Java 9</a>, that is). Java doesn't come with an IDLE either; it only has
+        the libraries and the compiler when installed. This makes installing and
+        running Java programs much more unintuitive for beginners coming from Python.
+    </p>
+
+    <h3>Purpose of This Guide</h3>
+    <p>
+        Installing Java is very different from installing Python. Sure, you can use
+        <a target="_blank" href="https://repl.it/">repl.it</a> or some other online editor to write your code and avoid the
+        hassles, but installing Java on your computer is certain to get you the best
+        programming environment. With ICS4U approaching soon, it's imperative that
+        we all get in some good Java XP before we enter, as Gr 12 CS is much more
+        difficult than Gr 11, and best if not BSed :).
+        <small>*cough*</small>
+        <br>
+        <br> With that out, I think it's safe to say that it's in all of your best interests
+        to give Java at least a quick whirl before the school year.
+    </p>
+
+    <h3>Intended Audience</h3>
+    <p>
+        This guide is intended for
+        <b>inexperienced users</b> who aren't sure how to configure Java correctly and
+        would like some assistance. If you have more than rudimentary knowledge on
+        how to install tools for a language and configure an editor, this guide will
+        likely bore you.
+        <br>
+        <br> While this guide uses Windows 10 to demonstrate the procedure, a user of
+        any OS can follow along and perform the same steps with minor modifications.
+    </p>
+
+    <hr>
+
+    <h2>PART 1 - INSTALLING JAVA</h2>
+    <h5>
+        <i>
+            We are using Java 8 for this guide. If you wish to use a newer version, note the
+            differences between your screen and my crops and decide accordingly.
+        </i>
+    </h5>
+
+    <p>
+        Installing Java is really just installing the libraries and the compiler. These things
+        are put into a package called a
+        <b>JDK</b>, or
+        <b>Java Development Kit</b>.
+    </p>
+
+    <b>
+        <i>
+            A. Go to the
+            <a target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Java JDK download page</a>
+            and select a JDK for your computer
+        </i>
+    </b>
+    <p>
+        In the first link selection article, click "Accept License Agreement" and click the
+        link that corresponds with your system (Windows x86 and Windows x64)*.
+    </p>
+    <h5>
+        <i>
+            This depends on the bits and your operating system. To check the number of bits on
+            your system, just navigate to My Computer, right click, select Properties
+            and you should see your bitsize.
+        </i>
+    </h5>
+    <h5>
+        <i>
+            * - Newer versions of Java only offer 64-bit downloads. If you're using an older
+            32-bit system, downgrade your Java version.
+        </i>
+    </h5>
+    <center>
+        <table class="image">
+            <caption align="bottom">
+                <small>Remember to Accept License Agreement.</small>
+            </caption>
+            <tr>
+                <td>
+                    <img src="Images/selectjdk.png" alt="Select the JDK for your system" style="width:519px;height:286px;">
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <b>
+        <i>B. Run the downloaded executable</i>
+    </b>
+    <p>
+        This step is simple enough. Just run the installer and say OK to all the settings.
+        If you are confident and want to tamper with a few install settings, do so
+        at your own peril.
+        <b>Remember the directory you save Java to.</b>
+    </p>
+    <center>
+        <p>
+            <img src="Images/install/install1.png" alt="Image not available :(" title="First menu. Just hit Next."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/install/install2.png" alt="Image not available :(" title="Cool status bar. Be patient."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/install/install3.png" alt="Image not available :(" title="Conform file install path. Remember it."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/install/install4.png" alt="Image not available :(" title="Java is now actually installing."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/install/installdone.png" alt="Image not available :(" title="It's done!"
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+        </p>
+    </center>
+    <p>
+        With that, Java is now on your system! It's still unusable (for normies) because
+        we don't have an editor (smh normies), but it's now on your computer.
+    </p>
+
+    <hr>
+
+    <h2>PART 2 - INSTALLING AND USING EDITOR (JCreator)</h2>
+    <b>
+        <i>X. Preface</i>
+    </b>
+    <p>
+        JCreator is a light
+        <b>IDE</b>, which stands for
+        <b>I</b>ntegrated
+        <b>D</b>evelopment
+        <b>E</b>nvironment. Because Java doesn't have an IDLE or a shell like Python
+        does when installed, we will use JCreator when developing applications (or
+        normal programs, for normies).
+        <br>
+        <br>JCreator cannot be downloaded from
+        <a href="http://www.jcreator.com">their site</a> at the moment cause it's broken (idk). HAVE NO FEAR THO, CAUSE
+        THE MAN HENRY TU NAVIGATED THR DARK DEPTHS OF THE INTERNET FOR US ALL TO
+        GET A CLEAN, NON-SKETCHY DOWNLOAD.
+        <br>
+        <br>
+        <a href="jcrea450_setup.exe">Click here to download the installer and setup executable.</a>
+    </p>
+    <b>
+        <i>A. Run the executable to install JCreator</i>
+    </b>
+    <p>
+        The installation of JCreator is as simple as the installation of Java. Verfiy everything
+        as usual and follow the cues in the images shown.
+    </p>
+    <center>
+        <p>
+            <img src="Images/jcreator1.png" alt="Image not available :(" title="First menu. Just hit Next."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/jcreator2.png" alt="Image not available :(" title="Just some sample settings. Hit Back if you want to emulate."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/jcreator3.png" alt="Image not available :(" title="Hit Finish to open JCreator."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+        </p>
+    </center>
+    <b>
+        <i>B. Set up general runtime settings on JCreator boot</i>
+    </b>
+    <p>
+        JCreator should boot immediately after finishing the installation. On boot, it will
+        ask for more configurations relating to the way you want Java to work in
+        the editor.
+        <b>Follow any cues in the images.</b>
+    </p>
+    <center>
+        <p>
+            <img src="Images/runcode1.png" alt="Image not available :(" title="Depends on whatever you like."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/runcode2.png" alt="Image not available :(" title="Leave this as is."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/runcode3.png" alt="Image not available :(" title="Type or paste your Java path in the text box."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/runcode4.png" alt="Image not available :(" title="Leave this blank."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+        </p>
+    </center>
+    <b>
+        <i>C. Make a Java project</i>
+    </b>
+    <p>
+        Making a Java file isn't as simple as Python. When you make a Java file, you actually
+        need to make a
+        <i>project</i>, which contains packages and source files to run your Java code.
+        It's complicated to explain, but thankfully you don't need to worry about
+        it for the most part. Just follow the steps shown below.
+    </p>
+    <ol>
+        <li>Open JCreator by double-clicking the icon on your desktop or opening your
+            app list in the Start menu and clicking on the JCreator icon.</li>
+        <li>
+            <p>
+                Once the window opens, disable and/or close the tips window that pops up (not important)
+                and navigate to:
+                <br>
+                <br>
+                <b>File >> New >> Project...</b>
+                <br>
+                <br>Additionally, you can just hit
+                <b>Ctrl + Shift + N</b> to open a new project.
+            </p>
+        </li>
+        <li>
+            Select "Basic Java Application" as your project template and hit Next.
+            <br>
+            <img src="Images/makeproj1.png" alt="Image not available :(" title="Select Basic Java Application."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+        </li>
+        <li>
+            Name your project and save it to a directory.
+            <b>Do not use spaces or any special symbols or characters. Letters and underscores
+                only.
+            </b> Afterwards, hit Finish, then Finish again when the loading is done.
+            <br>
+            <img src="Images/makeproj2.png" alt="Image not available :(" title="My project name is HelloWorld."
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+            <img src="Images/makeproj3.png" alt="Image not available :(" title="Loading done!"
+                style="width:469px;height:357px;" hspace="10" vspace="10">
+        </li>
+    </ol>
+    <b>
+        <i>D. Run a Java project</i>
+    </b>
+    <p>
+        When you finish making your project, your should have a new editor open, with a template
+        waiting for you :). You can study the code for a bit, but you're going to
+        want to run it.
+        <br>
+        <br>It's much easier than you think. Just
+        <b>click the Run button at the top of the window</b> and see the code run. Additionally,
+        you can just hit
+        <b>F5</b>. The output is at the bottom of the editor, in the General Output
+        window.
+    </p>
+    <center>
+        <img src="Images/final.png" alt="Image not available :(" title="Output!" vspace="10">
+    </center>
+
+    <hr>
+
+    <h2>Conclusion</h2>
+    <p>
+        By the end of this tutorial, you install Java and are able to run Java code in an
+        editor. This is the part where you go and do some more work in Java to prepare
+        for next year. Make this CS year great. Take some courses online, watch some
+        quick videos, and above all else, write your own code, develop your own style
+        and solve some problems.
+    </p>
+
+    <hr>
+
+    <iframe src="http://www.javarepl.com/embed.html" style="width: 100%; height: 350px; border: 0px"></iframe>
+    <p>Embed from
+        <a href="http://www.javarepl.com/term.html">www.javarepl.com</a>. Copyright (c) Albert Latacz and contributors under
+        Apache 2.0</p>
+</body>
+
+</html>
