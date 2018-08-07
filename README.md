@@ -1,5 +1,3 @@
- Rahmish Java-Get Guide \* { font-family: Lato, Ubuntu, "Trebuchet MS"; } 
-
 Complete Java Install/Run Guide + Editor Choices
 ================================================
 
