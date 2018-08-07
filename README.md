@@ -114,7 +114,3 @@ Conclusion
 ----------
 
 By the end of this tutorial, you install Java and are able to run Java code in an editor. This is the part where you go and do some more work in Java to prepare for next year. Make this CS year great. Take some courses online, watch some quick videos, and above all else, write your own code, develop your own style and solve some problems.
-
-* * *
-
-Embed from [www.javarepl.com](http://www.javarepl.com/term.html). Copyright (c) Albert Latacz and contributors under Apache 2.0
